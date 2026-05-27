@@ -1,0 +1,2123 @@
+{
+  "version": 1,
+  "skills": {
+    "adapt-architecture": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/adapt-architecture/SKILL.md",
+      "computedHash": "e1b4fcc5e9b7738012ff2716b09d214a24ba829db0b5b96138054dc7dd3f528b"
+    },
+    "adaptic": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/adaptic/SKILL.md",
+      "computedHash": "fa92e9c308c02dbbb01227d93fb27592e0ac544252165acb65f014f9a006a807"
+    },
+    "add-puzzle-type": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/add-puzzle-type/SKILL.md",
+      "computedHash": "758ad1ab3c8c9ce333f05bb6bcf42611a355f6fffc953365e5957448f0604b66"
+    },
+    "add-rcpp-integration": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/add-rcpp-integration/SKILL.md",
+      "computedHash": "2f86fc02695b99193340d930098529a7b8591825cedc9accd42dc7fd84413b64"
+    },
+    "aikido": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/aikido/SKILL.md",
+      "computedHash": "ece504c7148aaab788f74e4b48b0885121fa3e644565bbcea868068abba805b9"
+    },
+    "analyze-codebase-for-mcp": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-codebase-for-mcp/SKILL.md",
+      "computedHash": "7bb891d189e3267c7fddd538e3de1c4eab6a5cd69682a79c8ec3b4757b3599ef"
+    },
+    "analyze-codebase-workflow": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-codebase-workflow/SKILL.md",
+      "computedHash": "b30be8ebd81009d254dbe291bb4057b0b9374b79170ebfb1370892358c92aad4"
+    },
+    "analyze-diffusion-dynamics": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-diffusion-dynamics/SKILL.md",
+      "computedHash": "16a73b907a8f49d66fe3ca8567efa94621602c92e3e2dfc1798315f24dd14b5a"
+    },
+    "analyze-generative-diffusion-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-generative-diffusion-model/SKILL.md",
+      "computedHash": "d0e93c9403ac991e9c3795f212253146451ddc26c02818caeec1037f8a44133a"
+    },
+    "analyze-kernel-bottleneck": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-kernel-bottleneck/SKILL.md",
+      "computedHash": "48ddd196d5ad78cafd88d468f48fb2b2f571b1d3ea862a90b6493cc3901887a2"
+    },
+    "analyze-magnetic-field": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-magnetic-field/SKILL.md",
+      "computedHash": "81f8cf0d5d1e1e50f77d53deec6d17f9e14d99e31e3229e7f115f2ad2945b901"
+    },
+    "analyze-magnetic-levitation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-magnetic-levitation/SKILL.md",
+      "computedHash": "5d6b19d94558700e04f40d2876a82db4888796f24a0272c425d0f5435afd9813"
+    },
+    "analyze-prime-numbers": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-prime-numbers/SKILL.md",
+      "computedHash": "a0f2339965b0db8493637f85a94a2c750b504c1651a80b42844a495cd4121a1b"
+    },
+    "analyze-tensegrity-system": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/analyze-tensegrity-system/SKILL.md",
+      "computedHash": "8600144e347ecc7c20586404e92fa4e9c88efdca0925c04082c6a31b3120a670"
+    },
+    "annotate-source-files": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/annotate-source-files/SKILL.md",
+      "computedHash": "f013ce43ab9b9a95e015f5009d39588bc45cfbc0c2416bcd07dba8db0b647b92"
+    },
+    "apply-gematria": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/apply-gematria/SKILL.md",
+      "computedHash": "1830ab1638ed010239f97bf5a62bfa5e3cf8b6ebb89a838f45686419077accd3"
+    },
+    "apply-semantic-versioning": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/apply-semantic-versioning/SKILL.md",
+      "computedHash": "620ea7555e3184c499687e5b40eeb53a93890913ad9047436527edddf58458f7"
+    },
+    "appraise-gemstone": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/appraise-gemstone/SKILL.md",
+      "computedHash": "03a6df1bebfd56872b644bc51140d2cc81a68af15535028148e806776da1cd06"
+    },
+    "argumentation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/argumentation/SKILL.md",
+      "computedHash": "241324293afb5c50dc590df39d48c7b3c7628d2d1f8847c60f526d4aa03fc889"
+    },
+    "assess-context": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/assess-context/SKILL.md",
+      "computedHash": "8581de315f2108c42c46fc09dd660e561eea1bc7e4d8c687141bc98340749bd5"
+    },
+    "assess-form": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/assess-form/SKILL.md",
+      "computedHash": "f07e23d1389f917a7fb59bd391b0a363012d7e0e8ed5c1e8d91f4034234c57d9"
+    },
+    "assess-holistic-health": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/assess-holistic-health/SKILL.md",
+      "computedHash": "f0be916ceeef385d080a347d5b8273523d9d5e4098e87bd856137adc02ea21a3"
+    },
+    "assess-ip-landscape": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/assess-ip-landscape/SKILL.md",
+      "computedHash": "d180cbd02fcac6e6cc20c0a4564833283f307b60e7f326f4e5ca6874824aaa78"
+    },
+    "assess-trail-conditions": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/assess-trail-conditions/SKILL.md",
+      "computedHash": "d61f4b0153ffffd66cfbe204f69d728b96afab06212aa7821770da7c11efcbe0"
+    },
+    "athanor": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/athanor/SKILL.md",
+      "computedHash": "a81c1c6f241760d1e664d2eeb47ce9b2a305162a573bee15c42955a8eeaeb639"
+    },
+    "attune": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/attune/SKILL.md",
+      "computedHash": "4d1fab4b2542817eea2137490dbf610444ed879b0388b154787dbd0be683e055"
+    },
+    "audit-dependency-versions": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/audit-dependency-versions/SKILL.md",
+      "computedHash": "6ad35e16ab2282588b479b421c7ddbb205d6ce7c6cfa291ae558ae08c0247406"
+    },
+    "audit-discovery-symlinks": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/audit-discovery-symlinks/SKILL.md",
+      "computedHash": "fbfbdfba2c6a0be7560836fe7d3c2fdcb16da8f58ff2878b43bff0365a3ca1ba"
+    },
+    "audit-icon-pipeline": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/audit-icon-pipeline/SKILL.md",
+      "computedHash": "487bb99b2edc622d6fe2ee7b71e814bb70c113dfc995c9013a389fc1704041fb"
+    },
+    "awareness": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/awareness/SKILL.md",
+      "computedHash": "8f9343e734f4e758cd50140206c318decf5b2e3352dce029c1d3834e153b2bcb"
+    },
+    "basic-obedience": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/basic-obedience/SKILL.md",
+      "computedHash": "1783c2f3995587c4d0d5b18d37c49119a00e05f18b38d34e32092cc6d9ab1a8b"
+    },
+    "behavioral-modification": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/behavioral-modification/SKILL.md",
+      "computedHash": "b987f87b7ad13a9f80bd5a9222147a5fcc34a00584a60fb0e189f2cd491098ba"
+    },
+    "bootstrap-agent-identity": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/bootstrap-agent-identity/SKILL.md",
+      "computedHash": "94809fb916883b8b82101b12172b3f5739761454fca1f677b1e76030a9e4b56e"
+    },
+    "brahma-bhaga": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/brahma-bhaga/SKILL.md",
+      "computedHash": "9fcde2f2dea586541e1ec417904bcc22c0d2101415d504a71066b9606c9e5884"
+    },
+    "breathe": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/breathe/SKILL.md",
+      "computedHash": "5101ec311766df2bf78d7f7ea437e6d939e35c102a064de1e303b05573625789"
+    },
+    "build-ci-cd-pipeline": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-ci-cd-pipeline/SKILL.md",
+      "computedHash": "56d2922f3f6a467e554b39fcbb8ec877ae3948a1ee9980c0c8baac2b37855973"
+    },
+    "build-cli-plugin": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-cli-plugin/SKILL.md",
+      "computedHash": "d28df19270bdfe11ddf9a80e13b975ae086165dbfd70b90eadf3a00654484778"
+    },
+    "build-coherence": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-coherence/SKILL.md",
+      "computedHash": "b3a8534d5c17f811457c74b3ac0e4a91b313d1f1c76142b7392ae05aada83dba"
+    },
+    "build-consensus": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-consensus/SKILL.md",
+      "computedHash": "2905ab963be4ed94fb8c4e963bd0207eb6bdb37575fd30f679f691401a88c93c"
+    },
+    "build-custom-mcp-server": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-custom-mcp-server/SKILL.md",
+      "computedHash": "620b11e00c32ae8e390a9f2175248a7567547b16a1db1af5a37b0449906d7f68"
+    },
+    "build-feature-store": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-feature-store/SKILL.md",
+      "computedHash": "6173af688e189f9d9ecf0ea3933b9eb4ce446ac975143d5237552f5ef62506c5"
+    },
+    "build-grafana-dashboards": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-grafana-dashboards/SKILL.md",
+      "computedHash": "c8fad8801b4b44ac9dd86313c1e225ed5bf11186640596e0d7200766cc4f37c2"
+    },
+    "build-parameterized-report": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-parameterized-report/SKILL.md",
+      "computedHash": "e625ea6e6dea115e7f208821af7b75efe445b1ddd56cebc44e123ce113e5f119"
+    },
+    "build-pkgdown-site": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-pkgdown-site/SKILL.md",
+      "computedHash": "2cd026b1bd840f25cfe88c3e26a5e22a3610c1d60907edf7f86e3c327c82d4c9"
+    },
+    "build-sequential-circuit": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-sequential-circuit/SKILL.md",
+      "computedHash": "540d64d9db919e3c5cf1f437aab0c7a0cff7e3f90aecff36b7e1e9f3a68a1c9d"
+    },
+    "build-shiny-module": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-shiny-module/SKILL.md",
+      "computedHash": "729b665993acf6587fc0c79741b6d3b51b234581f681e452e55c39dd1e2d809c"
+    },
+    "build-tcg-deck": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/build-tcg-deck/SKILL.md",
+      "computedHash": "c76f7d1b592084b4ad6039cf9b16ddd749e8532e1766d37ca6477be06df755bc"
+    },
+    "catalog-collection": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/catalog-collection/SKILL.md",
+      "computedHash": "974e224474baf6eae88e5c2bca423edbe0c9717428716cb9ee391d32ce5e425e"
+    },
+    "center": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/center/SKILL.md",
+      "computedHash": "c37f71aafa520bd003d8746ba2ad9156c072131f1b6670a56a29a971c4e23d53"
+    },
+    "check-hiking-gear": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/check-hiking-gear/SKILL.md",
+      "computedHash": "55c044219b3c30e23be43652de64c49113dc67e6c184a1f2758e550f6ee39a10"
+    },
+    "check-relocation-documents": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/check-relocation-documents/SKILL.md",
+      "computedHash": "d953dea60d065a82730a42f810cdfedc3b9213e342b486601c6c5aa9df067b7d"
+    },
+    "choose-loop-wakeup-interval": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/choose-loop-wakeup-interval/SKILL.md",
+      "computedHash": "d59a732110fe32224ddc9fe3bee8123143fcfe654869dfc6d9bc8ed2fc7ce3af"
+    },
+    "chrysopoeia": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/chrysopoeia/SKILL.md",
+      "computedHash": "57942fc1e61c1b1b241d7dd32bce10a8b08b2ba4b2c8113445a625f2290e5416"
+    },
+    "circuit-breaker-pattern": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/circuit-breaker-pattern/SKILL.md",
+      "computedHash": "4f07caf57f5dd5af5e9153867712e2ba4d3ee27d524cdc8ca85865267d679386"
+    },
+    "clean-codebase": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/clean-codebase/SKILL.md",
+      "computedHash": "a29db80d2eff413c689a04f89ce56c133ba01bde684644983ea28b9333c008be"
+    },
+    "collect-preserve-specimens": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/collect-preserve-specimens/SKILL.md",
+      "computedHash": "f93e26a36b7c989ba682f90093cc2acadaa164030040bc38709fffc122c2590b"
+    },
+    "commit-changes": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/commit-changes/SKILL.md",
+      "computedHash": "bac31a0cff14072687570067372b4d164bfda259f0fb928b0cb1ccc45039ff53"
+    },
+    "compose-sacred-music": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/compose-sacred-music/SKILL.md",
+      "computedHash": "52f8b409de5bc173cf95e6c53cb1c23c57b42c54a49ea47edc0793d5fc7165c9"
+    },
+    "conduct-empirical-wire-capture": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/conduct-empirical-wire-capture/SKILL.md",
+      "computedHash": "004d5ccf8f6aad5bd391748340c9bf1d29de5695da7e5cc1f9590b2f48aa0aa1"
+    },
+    "conduct-gxp-audit": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/conduct-gxp-audit/SKILL.md",
+      "computedHash": "681166af6c47bf6e63bc2d4da328508829d98175b6aad3612fed07510785216e"
+    },
+    "conduct-post-mortem": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/conduct-post-mortem/SKILL.md",
+      "computedHash": "85a6f9d592769350abf0fec7afc28a2c5375bf80d07acecbfa9a80fbdd347721"
+    },
+    "conduct-retrospective": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/conduct-retrospective/SKILL.md",
+      "computedHash": "f9c9792aa5c229f0cba7a2d152262231ac8d0d5cabede008c61740374646473a"
+    },
+    "configure-alerting-rules": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-alerting-rules/SKILL.md",
+      "computedHash": "23b4a31c9ae15cb0a56cbf763d5c20e4641e4e4319fa144300e4fc5d5003c63e"
+    },
+    "configure-api-gateway": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-api-gateway/SKILL.md",
+      "computedHash": "aba5600be06597cb75ca44cde117c6e69d323a6632fc59cc308c69609701aca8"
+    },
+    "configure-git-repository": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-git-repository/SKILL.md",
+      "computedHash": "b5840125bd9bdb0e39e1311a82ec4a310019a8249e01ba4738b88023f467e940"
+    },
+    "configure-ingress-networking": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-ingress-networking/SKILL.md",
+      "computedHash": "0355a9b5d8dfced041b4e230c43ad225e8ab2065843345778a40b37415a91020"
+    },
+    "configure-log-aggregation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-log-aggregation/SKILL.md",
+      "computedHash": "3f172b3ae065d231f731c62706425a74ad5bae426a0f651ba011f2f75d087f01"
+    },
+    "configure-mcp-server": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-mcp-server/SKILL.md",
+      "computedHash": "84ab6ac761377db620d3e0c8d6e5b6d3e47de0ddbce6f05bc4d3ffafc7d718ac"
+    },
+    "configure-nginx": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-nginx/SKILL.md",
+      "computedHash": "e029ab15d143e8b7dfd2e225eef31a633525e3175f33adf6c819c5bcc39022f2"
+    },
+    "configure-putior-mcp": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-putior-mcp/SKILL.md",
+      "computedHash": "1fd2ab0222f7c541c5af2387113078e840eb40da536fcebba57a309488ad2f9f"
+    },
+    "configure-reverse-proxy": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/configure-reverse-proxy/SKILL.md",
+      "computedHash": "ea13d8bc1eb98f055181c7311623e95fb5544a31ad77fe5215a59671d5e60119"
+    },
+    "conscientiousness": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/conscientiousness/SKILL.md",
+      "computedHash": "637f6fd0de3cd785087696b94c3e34f94da042f5bd10e2af461cbc7543820e0f"
+    },
+    "construct-geometric-figure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/construct-geometric-figure/SKILL.md",
+      "computedHash": "a4dfc78d154b3206be2163032d1f75b3b73341b4cc9467406d1e2c561da67d46"
+    },
+    "consult-natural-history": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/consult-natural-history/SKILL.md",
+      "computedHash": "aa60d4dba00b85a3b8e3550ea136a83de08592170e9b701dbfa8e0b12dbe4112"
+    },
+    "containerize-mcp-server": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/containerize-mcp-server/SKILL.md",
+      "computedHash": "2cfb29441c65a0461d7a26d44f3a61fd4a4fea55ce67f92b35e1d22090d6684e"
+    },
+    "coordinate-reasoning": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/coordinate-reasoning/SKILL.md",
+      "computedHash": "09730a8641180c572030d501662be1783ebc4398384752a7845f08ff34bab718"
+    },
+    "coordinate-swarm": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/coordinate-swarm/SKILL.md",
+      "computedHash": "541bc4d4fac98768d7bcb44b396cbd5462eac33abf9b3382bc362ac83536bf79"
+    },
+    "correlate-observability-signals": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/correlate-observability-signals/SKILL.md",
+      "computedHash": "0f2a8488897124030fffcdf0928c1aafe214a3d8e039991680a282014faebdd7"
+    },
+    "create-2d-composition": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-2d-composition/SKILL.md",
+      "computedHash": "4257e481073fc52d19aab3ebd008ae8c0c0eb91a03c31935fe96feb8fa52135f"
+    },
+    "create-3d-scene": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-3d-scene/SKILL.md",
+      "computedHash": "b37b03e1df264988d4422e23cf633dc64e21a6daae1349972e4452fd750a3579"
+    },
+    "create-agent": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-agent/SKILL.md",
+      "computedHash": "bfac616d9b0ec184e186ad205b3c71f3dc83a869759885c1db71ae8307dae674"
+    },
+    "create-dockerfile": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-dockerfile/SKILL.md",
+      "computedHash": "5d8477a77dd988831aa4c83449068d89681661ab66e6a22eb76dfcb439bf3d77"
+    },
+    "create-github-issues": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-github-issues/SKILL.md",
+      "computedHash": "4c9cabf06af37cee52b120fa2f37247f4a872c461239770457e5317960f9ad08"
+    },
+    "create-github-release": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-github-release/SKILL.md",
+      "computedHash": "2a707da80cbfd980646d1f4ebc3abf6c3f638570eca2760968813565c18dc7fb"
+    },
+    "create-glyph": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-glyph/SKILL.md",
+      "computedHash": "4426b2a415d2be8a0ed664326bca0ec565a7b098cda5520d70e429fb538ea703"
+    },
+    "create-multistage-dockerfile": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-multistage-dockerfile/SKILL.md",
+      "computedHash": "f63d9e6db371522500882406d1d78dd4b7b437073d0421be67a385417edbf09b"
+    },
+    "create-pull-request": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-pull-request/SKILL.md",
+      "computedHash": "18441229277e8b89aa048be17379e465e7016d445b1bcae21e3de0bcb0ce831c"
+    },
+    "create-quarto-report": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-quarto-report/SKILL.md",
+      "computedHash": "9de4755c3fbb06d698c3efbb75883698473ebd16005463e342f9b8bdac3f91f9"
+    },
+    "create-r-dockerfile": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-r-dockerfile/SKILL.md",
+      "computedHash": "3cf93eddf99379dfe8464b63af145060348d6cfd20ef412882fc6aadaa75c550"
+    },
+    "create-r-package": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-r-package/SKILL.md",
+      "computedHash": "9c084d577e6a1f41ffff43e322fba1be6942014a6715acbdea3adb5fd3b2c3a5"
+    },
+    "create-skill": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-skill/SKILL.md",
+      "computedHash": "a41f85e961b313b1fc94fbc1982fdf55e43c28a555dac30c6b7fe05246bb57db"
+    },
+    "create-spatial-visualization": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-spatial-visualization/SKILL.md",
+      "computedHash": "edd436d8dda0fcaf828f23a56f777c0d77f6f6d052f24a4572dd33e430da2369"
+    },
+    "create-team": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-team/SKILL.md",
+      "computedHash": "7f9fa30f27c6996f81c4b89ddd31b87cba857643a51b2e7e964256305483424d"
+    },
+    "create-work-breakdown-structure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/create-work-breakdown-structure/SKILL.md",
+      "computedHash": "dbe9008a9eb714548370a85cf53b56f0fa2c7526cdfe934d90cfbfeab2b8557f"
+    },
+    "cross-review-project": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/cross-review-project/SKILL.md",
+      "computedHash": "61cd143e04fc781aa52c5984061073f3c5a8f77b2be9133d738abd7794b96e80"
+    },
+    "cultivate-bonsai": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/cultivate-bonsai/SKILL.md",
+      "computedHash": "ac480cec4ce27353858a77e8166d5494b60623db80926a8469f98f5054dad563"
+    },
+    "curate-collection": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/curate-collection/SKILL.md",
+      "computedHash": "cf1467749f249f341a640f509d079947ba97d42355c80341cefbd1d7f9f47797"
+    },
+    "cut-gemstone": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/cut-gemstone/SKILL.md",
+      "computedHash": "dc5e8ee0bb1b20f0957b5069fd522b803577f5f78ba7fe66787b93661d2a0207"
+    },
+    "decode-minified-js-gates": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/decode-minified-js-gates/SKILL.md",
+      "computedHash": "8d1d61a96ecb50530a6496efdee30c43bfe0ce97e11726e33f8dc0f65c760584"
+    },
+    "decommission-validated-system": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/decommission-validated-system/SKILL.md",
+      "computedHash": "2fa23f0ba60f6b5f0530bd3591a775b7ca5b4916c0754efb284d93bd409b2c53"
+    },
+    "defend-colony": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/defend-colony/SKILL.md",
+      "computedHash": "0ef260a73b157d91cf3ddfc67cb89be61d869bc78f346b12e1fae201b5444d5c"
+    },
+    "define-slo-sli-sla": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/define-slo-sli-sla/SKILL.md",
+      "computedHash": "7df0a54d4fe5a6a944d05b407a2d644a00a545a00bc293df27076bc4c1dd1be6"
+    },
+    "deploy-edge-ai-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-edge-ai-model/SKILL.md",
+      "computedHash": "d99744dae582ee52a0d3e63ca71ef5dfd0c54c6232a58957eda244efe6dfa0bc"
+    },
+    "deploy-ml-model-serving": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-ml-model-serving/SKILL.md",
+      "computedHash": "9e424871ef30534f892b7c158beb8a37613fde45f432bf8ce98c5974668ffa81"
+    },
+    "deploy-searxng": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-searxng/SKILL.md",
+      "computedHash": "412e6c5d186f5d52727a7999d6f310fdf58f632112005281ed08cdfe99dd1881"
+    },
+    "deploy-shiny-app": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-shiny-app/SKILL.md",
+      "computedHash": "27e0ca90e8db8aaef84c368e51f5f7341e1e3297b0abf7e9afb24b96d88c96b6"
+    },
+    "deploy-shinyproxy": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-shinyproxy/SKILL.md",
+      "computedHash": "2816f196c4208376d70bd44c4aa791b7919fbbd31a0a2f4ebb49acf392d293b1"
+    },
+    "deploy-to-kubernetes": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-to-kubernetes/SKILL.md",
+      "computedHash": "4e2b149a4467839043bfb9dc0cbb442c77b924a9a6bb8be1628a443ca30aac5a"
+    },
+    "deploy-to-vercel": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "computedHash": "aaced03e424c731de34bfd4cf72a7f2898f13a6b74418d1dd3b4e5aa312bf013"
+    },
+    "derive-theoretical-result": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/derive-theoretical-result/SKILL.md",
+      "computedHash": "65267ea4f490da4eb8b071f40f72fbb1da193886723292b636688db7bdfaac7c"
+    },
+    "design-a2a-agent-card": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-a2a-agent-card/SKILL.md",
+      "computedHash": "0059e184ab0ed09f610fc4895e54378594e207bb84e42a20f013a52eb64b0729"
+    },
+    "design-acoustic-levitation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-acoustic-levitation/SKILL.md",
+      "computedHash": "dc0b649de1d76a08232ed14e1d77f418a9ba949da1ac035ad779c15db8ee58c5"
+    },
+    "design-cli-output": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-cli-output/SKILL.md",
+      "computedHash": "cf66533a3c15056e95c333b0a4cc9281de6ededd90c8b64c6dc3c162df65080f"
+    },
+    "design-compliance-architecture": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-compliance-architecture/SKILL.md",
+      "computedHash": "c1f9d2eb469b54fdc83b1ba25268f2a8dfc3ff974d8745812bc2df07b82c42c8"
+    },
+    "design-electromagnetic-device": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-electromagnetic-device/SKILL.md",
+      "computedHash": "8d1c36dad4a6ed3c00c62e7893923125c69b53bc2e3bba25c7eab59bb66486ad"
+    },
+    "design-logic-circuit": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-logic-circuit/SKILL.md",
+      "computedHash": "a01954ce498fd80012ed3c198d0fff97c66ade91b61fef62893efd1473da2f8c"
+    },
+    "design-on-call-rotation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-on-call-rotation/SKILL.md",
+      "computedHash": "9ee70f1c85d4b5a3525209142f7121c634823d6992f238d09d0ea4b8aa2a5e85"
+    },
+    "design-serialization-schema": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-serialization-schema/SKILL.md",
+      "computedHash": "a43f3142b86b5212d82142a9d6954c9ddd070c5a17d0a6fddc29151f8ddd12e4"
+    },
+    "design-shiny-ui": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-shiny-ui/SKILL.md",
+      "computedHash": "59930b636f0a43efa7285433f78c6f76f84f564891433927c0faadb3fb5cbbd6"
+    },
+    "design-training-program": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/design-training-program/SKILL.md",
+      "computedHash": "8616d5c481881aadc2f3d51b33b859b9e49a49f60535f732ee7b0164e6f35d37"
+    },
+    "detect-anomalies-aiops": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/detect-anomalies-aiops/SKILL.md",
+      "computedHash": "3eff7f5fd234cb5254112a5ef4a197e626f24548455231bf7b7526ba911a8f78"
+    },
+    "develop-gc-method": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/develop-gc-method/SKILL.md",
+      "computedHash": "b0807b557e645a75b60f1e1b9a5f146938a9b66fe4858fa7870203bf7bcc5839"
+    },
+    "develop-hplc-method": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/develop-hplc-method/SKILL.md",
+      "computedHash": "b83dfae7dc5ac08a800d435ce1682052a3429029b330a9bc50d82897d47c174e"
+    },
+    "dissolve-form": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/dissolve-form/SKILL.md",
+      "computedHash": "46e83756a10a8393d09abf08f547c0ed3802b909952c6046d200634f0a233507"
+    },
+    "document-insect-sighting": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/document-insect-sighting/SKILL.md",
+      "computedHash": "f7de22d119b8923f2de9d1135e237681f8d884b4ee4d2be719d19c1b8993ba15"
+    },
+    "draft-project-charter": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/draft-project-charter/SKILL.md",
+      "computedHash": "eac56e68ade3cfad374441435f6f79f1735eb5effda1b636fcc84ade4b89792b"
+    },
+    "dream": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/dream/SKILL.md",
+      "computedHash": "0a4b5516cc8ffda1e89bfb88f892af23f4d0d8c035ddec2607fdc127fdb351ad"
+    },
+    "du-dum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/du-dum/SKILL.md",
+      "computedHash": "b9d3247deca4f17a409767a69813b1212419d295c0594c722a488d61d4cc197b"
+    },
+    "enforce-policy-as-code": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/enforce-policy-as-code/SKILL.md",
+      "computedHash": "100ac704110b8ddb246c913c170d216bd9cd88adff2648997903f6371e0ff163"
+    },
+    "enhance-glyph": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/enhance-glyph/SKILL.md",
+      "computedHash": "3d73d1d627975b8e4ec847492d38ef73f80612fbe2c7974f94b8a056ef554a09"
+    },
+    "escalate-issues": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/escalate-issues/SKILL.md",
+      "computedHash": "2df15d11ee9f3eabf69423b87d761c5b43f5a0447020cd853ad0a55851f425d0"
+    },
+    "evaluate-agent-framework": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evaluate-agent-framework/SKILL.md",
+      "computedHash": "6186cb1972a2fc77353b13e95e3a0ac7e67f0a43d1b783e7b3e2c6719fe220b6"
+    },
+    "evaluate-boolean-expression": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evaluate-boolean-expression/SKILL.md",
+      "computedHash": "dd787ed880559cd61346bc4967fa981db810b6001ed8b6f7e8410844ccc364bf"
+    },
+    "evaluate-levitation-mechanism": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evaluate-levitation-mechanism/SKILL.md",
+      "computedHash": "594cb9de05df0cd2bb65c4a5914d57ebbc8dca42fe12c00d4d9e7469c8d1b0cc"
+    },
+    "evolve-agent": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evolve-agent/SKILL.md",
+      "computedHash": "3ce27a9448e7f60c2f36859214501dd49e2d3cecd6c119baffb36198a419eb6d"
+    },
+    "evolve-skill": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evolve-skill/SKILL.md",
+      "computedHash": "a6761373f07dad9dcafc23e42985a0efabdd7a29075f9840b70c515dac0f18a9"
+    },
+    "evolve-skill-from-traces": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evolve-skill-from-traces/SKILL.md",
+      "computedHash": "8332826a976095135e3e078a0c5be80d349be78f9647269b32daf79519d01594"
+    },
+    "evolve-team": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/evolve-team/SKILL.md",
+      "computedHash": "91bebf82464b9380414849320c6ae2fa8219cfb83e7c7ef4df0d61d701d74ec1"
+    },
+    "expand-awareness": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/expand-awareness/SKILL.md",
+      "computedHash": "c75178f0d2dedded013e5cde7947b142aa933d0eb715db6b560b94d95b1638a8"
+    },
+    "explore-diophantine-equations": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/explore-diophantine-equations/SKILL.md",
+      "computedHash": "38d86e3e3ea714857ed681fa64d379ae2588fe267723bf447128411f602f41ad"
+    },
+    "express-insight": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/express-insight/SKILL.md",
+      "computedHash": "ce0bd2121435b15159a8bb510416aca1641818e36f49b50970075d61bc18ce15"
+    },
+    "fail-early-pattern": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/fail-early-pattern/SKILL.md",
+      "computedHash": "2f362cb510101e29613f3fa71d60a2c75d73fdd2afbfa0cba3fd3e6cfc110442"
+    },
+    "file-trademark": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/file-trademark/SKILL.md",
+      "computedHash": "c60aaee3c779ce352792de5e097e26a36928a777717ea3c661b8972c0ffe6b07"
+    },
+    "fit-drift-diffusion-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/fit-drift-diffusion-model/SKILL.md",
+      "computedHash": "b3f281741a70637654b0a25efa0c2dbbb7ae4a240653f7a548bdac9a480919ae"
+    },
+    "fit-hidden-markov-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/fit-hidden-markov-model/SKILL.md",
+      "computedHash": "b5fbb464783e67d04311f50475aa688a5c04d1079778cc01c6429dd4e0b502bc"
+    },
+    "forage-plants": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/forage-plants/SKILL.md",
+      "computedHash": "3c55a1aa7e2887e545158c6d2dcff634d708ed4fb7ac858ef0a94a287801073c"
+    },
+    "forage-resources": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/forage-resources/SKILL.md",
+      "computedHash": "fbdd46c3623d57bc1d09cb004e62c27877a6250320019d461d0d5e22148fb25c"
+    },
+    "forage-solutions": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/forage-solutions/SKILL.md",
+      "computedHash": "c9901e3b36c4d569c31932d38ed4dd49cd37d5d7860deb16f011eea8229a1475"
+    },
+    "forecast-operational-metrics": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/forecast-operational-metrics/SKILL.md",
+      "computedHash": "7e8713c305a7d122e29f1f027f4f26d4b9a02960444d99fda69977a25110e87e"
+    },
+    "format-apa-report": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/format-apa-report/SKILL.md",
+      "computedHash": "64f3a01b69407bbba32923072d6552df79c5e5d2d1258e55b3409b812d51cb7d"
+    },
+    "format-citations": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/format-citations/SKILL.md",
+      "computedHash": "375fdbd4ac50cc1a65ee423371bf8d2b9c1723480d0a5fadd1a2e54f88903628"
+    },
+    "formulate-herbal-remedy": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/formulate-herbal-remedy/SKILL.md",
+      "computedHash": "042760cbe7b581562d4f0ce0d8788da85945875d8f7faf613bfe26dafd2052b2"
+    },
+    "formulate-maxwell-equations": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/formulate-maxwell-equations/SKILL.md",
+      "computedHash": "6d2e12dd4fce3350458151104518b08b91ca61012ccb272e6ca356c7e6537e40"
+    },
+    "formulate-quantum-problem": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/formulate-quantum-problem/SKILL.md",
+      "computedHash": "9a61e7a7f1e6c450820dd273dec4457ecbf3af63846e770119d3bf2e87524dd0"
+    },
+    "fungi-identification": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/fungi-identification/SKILL.md",
+      "computedHash": "6c26bf084a039efdd45d5ce2a724f66e481255c445ce6759b97d144200c3301e"
+    },
+    "generate-puzzle": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/generate-puzzle/SKILL.md",
+      "computedHash": "127711e70d02b5fa9b48bd376913936fb3027de3e71a4f75602508c1e5aca6ae"
+    },
+    "generate-statistical-tables": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/generate-statistical-tables/SKILL.md",
+      "computedHash": "69c6361122b4164a5b90402271eb0e6f3cbec86fc3c679b6b9bd384e807ae70e"
+    },
+    "generate-status-report": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/generate-status-report/SKILL.md",
+      "computedHash": "e8fa61eed0d024858d02ae835d7e2196c8db826155346490d4a0de01e839f4d8"
+    },
+    "generate-tour-report": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/generate-tour-report/SKILL.md",
+      "computedHash": "134ceb33c14aa19c76741726969ec74cd58a030ffb60326025194fd79465d7a2"
+    },
+    "generate-workflow-diagram": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/generate-workflow-diagram/SKILL.md",
+      "computedHash": "ee93eebd6d7a1a69451be595bc72c9d3bafa73f3856a18aba8fcdf60bc6b28ae"
+    },
+    "gold-washing": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/gold-washing/SKILL.md",
+      "computedHash": "788289aaa94810466c425af6ad4d641f4bd01c233a7d14a2d39a69905a115bba"
+    },
+    "grade-tcg-card": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/grade-tcg-card/SKILL.md",
+      "computedHash": "518d51ce73614683db1483fd3f5e7eae4c4702cb5910445b52ffba69246a5e1a"
+    },
+    "gratitude": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/gratitude/SKILL.md",
+      "computedHash": "a8fea84ec5b3816346c847e76758d759520121040ed829dadd82ccd83f040290"
+    },
+    "headless-web-scraping": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/headless-web-scraping/SKILL.md",
+      "computedHash": "941e95741d3d9dfe04d90be04b06a97081077a9fb3133281819cc057526bafdd"
+    },
+    "heal": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/heal/SKILL.md",
+      "computedHash": "ef22ee89b8033c2869c0203943650c6681656f9b2710f0e82b3b19502af3072f"
+    },
+    "heal-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/heal-guidance/SKILL.md",
+      "computedHash": "b7363701431fda895e1b6cf082075c8817496bf59f8dbdf0dabe2ea30c29d403"
+    },
+    "honesty-humility": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/honesty-humility/SKILL.md",
+      "computedHash": "53c89db8c1fab01463e1be6da2fe7bae18f0cfde58284151d8b054b4d8ce3eb3"
+    },
+    "identify-gemstone": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/identify-gemstone/SKILL.md",
+      "computedHash": "05fef66cee40163d089e89d9703c9224097a22e1900433835d07f84cf8fc08f6"
+    },
+    "identify-insect": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/identify-insect/SKILL.md",
+      "computedHash": "7cc1d76963d041eb6c6629cdfeeef50426b41e0eba3311dac4ba69e9fda14b73"
+    },
+    "implement-a2a-server": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-a2a-server/SKILL.md",
+      "computedHash": "7601a2874b13f25651933e1cf4d795587b888cf97ee95be35d218a128f21c855"
+    },
+    "implement-audit-trail": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-audit-trail/SKILL.md",
+      "computedHash": "cfeb8bc6955187140602fcb54b7c625c75b1887d7d3bbff065ccbc139c75374d"
+    },
+    "implement-diffusion-network": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-diffusion-network/SKILL.md",
+      "computedHash": "ccfb2712bc03a9d11fd6c3ed0e4dc24dda94a544c03f1f0db233c549c4af6762"
+    },
+    "implement-electronic-signatures": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-electronic-signatures/SKILL.md",
+      "computedHash": "ec0cbdc1787a74875885270420f04c47816b623c013d30f625ec636f5086fbc5"
+    },
+    "implement-gitops-workflow": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-gitops-workflow/SKILL.md",
+      "computedHash": "bfd92613d6b8fd0efe6b5faaf6b2ee9b1b2901300c3570aa6a8b14a4ac2ded54"
+    },
+    "implement-pharma-serialisation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/implement-pharma-serialisation/SKILL.md",
+      "computedHash": "81dd791f13fda6f3db55ad5d9ab2023bffb7bfb09529f1dc180ece8a7f9a6170"
+    },
+    "install-almanac-content": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/install-almanac-content/SKILL.md",
+      "computedHash": "fad7c08619db4d48876ebcb11cf8fbb6566874aaf393edfb651fc85268a50559"
+    },
+    "install-putior": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/install-putior/SKILL.md",
+      "computedHash": "4b430877ada88bd15dd008ad6da5a62a4b10966e2b1afdbc217ef95b0e04bee9"
+    },
+    "instrument-distributed-tracing": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/instrument-distributed-tracing/SKILL.md",
+      "computedHash": "ffa2bdd00cfd589ca60b986b8245b7a88793dc1ec9456d7c91541f3dd1a57ffb"
+    },
+    "integrate-gestalt": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/integrate-gestalt/SKILL.md",
+      "computedHash": "b4075b8ec48569a353e8d7a407fde220fac755aea31952782c2e5552bd376de8"
+    },
+    "interpret-chromatogram": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-chromatogram/SKILL.md",
+      "computedHash": "3c63b2860ab74a4374772a129736e2a5ec7d5f6c0d835a065e474d7c70cdb9f8"
+    },
+    "interpret-ir-spectrum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-ir-spectrum/SKILL.md",
+      "computedHash": "866ba03fef21019cf03ace9ce086941cee01fc559e1c78522d32c12d3d9b840a"
+    },
+    "interpret-mass-spectrum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-mass-spectrum/SKILL.md",
+      "computedHash": "2f939d7dec430fb0f588e8d73cf1925597a2ccc33899cd72791b53256b2def67"
+    },
+    "interpret-nmr-spectrum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-nmr-spectrum/SKILL.md",
+      "computedHash": "37bec7af21debd8a11b3e6c72bdb49eafcb21b347d598ba866b052cc67b45cc4"
+    },
+    "interpret-raman-spectrum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-raman-spectrum/SKILL.md",
+      "computedHash": "162f2970376a5027e2dcab1c8b236faa5cca8b47a869469932600aabcee62ed1"
+    },
+    "interpret-uv-vis-spectrum": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/interpret-uv-vis-spectrum/SKILL.md",
+      "computedHash": "c8fa5866a571ae3338450221b26879851bc2bb61ddb428127b352bfe132f145e"
+    },
+    "intrinsic": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/intrinsic/SKILL.md",
+      "computedHash": "4da91dd704010c7378803a2021700669773e4832e56f0b48aa9669dc05e2ab2c"
+    },
+    "investigate-capa-root-cause": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/investigate-capa-root-cause/SKILL.md",
+      "computedHash": "a6d41f8fbcbd0e676b281f65864d02eb247d0b302dd0ae245a56ad3a4b1f6e0f"
+    },
+    "label-training-data": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/label-training-data/SKILL.md",
+      "computedHash": "8ce077091236dbaddd9f3a5fa9df109092cd6476c6559d9c1fdeda95c54e9a22"
+    },
+    "learn": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/learn/SKILL.md",
+      "computedHash": "26317b4eb544be7c1fcbb6a0cd827bba3fd082fd8f84310b659525ad1691eb81"
+    },
+    "learn-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/learn-guidance/SKILL.md",
+      "computedHash": "43cd69c4b62b558ca15ad72cea41d091733820b5d385ab4dc15d3daf26cb5722"
+    },
+    "listen": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/listen/SKILL.md",
+      "computedHash": "92f67bdc898a232e35e5f2289f8e9e8f24cf320b8b12b9636d0984d515609619"
+    },
+    "listen-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/listen-guidance/SKILL.md",
+      "computedHash": "2287b93602e68b3963e60b8545eacb41cb5eee6602ded44670b81eba51282b10"
+    },
+    "maintain-hand-tools": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/maintain-hand-tools/SKILL.md",
+      "computedHash": "5d1bb4d8113c794b8bdb861ae276dad64401a146036b462ed8ab45dcb178a91f"
+    },
+    "make-fire": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/make-fire/SKILL.md",
+      "computedHash": "54a8142ed385bb1b8e6427bba7f9adecac71305ea61bc8de0176cca947576b24"
+    },
+    "manage-backlog": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-backlog/SKILL.md",
+      "computedHash": "e77552ea8a3a06c6372ed684860022952aa8e03895a04ec78381cb4c930abf5e"
+    },
+    "manage-bibliography": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-bibliography/SKILL.md",
+      "computedHash": "6e51f91af87a29e4176b3b292f931befa80d2c38ebfedbb17e45d5f8aad6f25a"
+    },
+    "manage-change-control": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-change-control/SKILL.md",
+      "computedHash": "5f7f1610767d4097ed2cc94cf41f0449669045a6527232a75db9386cec42ab5e"
+    },
+    "manage-changelog": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-changelog/SKILL.md",
+      "computedHash": "2ab0b00ff6d738643fcf405a45e3c51330d74c1ffa1d1af7a784bcaa948a4d72"
+    },
+    "manage-engagement-buffer": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-engagement-buffer/SKILL.md",
+      "computedHash": "3d81600735362913d81a2b565c175c5370fd40507e3b82575f999a9691eeba03"
+    },
+    "manage-git-branches": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-git-branches/SKILL.md",
+      "computedHash": "c17afa7fb3f3cc35b46e3c061c3890ba5aff103499c37405ac1f69cec3761736"
+    },
+    "manage-kubernetes-secrets": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-kubernetes-secrets/SKILL.md",
+      "computedHash": "85d15e477d1ef111233553b788529a7f29ae361e880061d2499f1d274cb7591d"
+    },
+    "manage-memory": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-memory/SKILL.md",
+      "computedHash": "a007ed9a5e6a40bde865fffe9c2f61ea3b8e350cca6517aec94ca8509d15da93"
+    },
+    "manage-renv-dependencies": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-renv-dependencies/SKILL.md",
+      "computedHash": "89a30f12c12beafa6663f4474870e0415ca6b1213968e21bfb7b96d93ebe1206"
+    },
+    "manage-tcg-collection": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-tcg-collection/SKILL.md",
+      "computedHash": "f5eb289ea71eef0c86076741368967acf53093aed35e0f984287d2622189c67e"
+    },
+    "manage-token-budget": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/manage-token-budget/SKILL.md",
+      "computedHash": "d91ce01d342c80bc9306ec5c5a41c92df86e931feb720058053ee96994387411"
+    },
+    "meditate": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/meditate/SKILL.md",
+      "computedHash": "fdded61c078c08e65ee0abf9143237b51b9f13a54171af32fb1f77c37715162b"
+    },
+    "meditate-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/meditate-guidance/SKILL.md",
+      "computedHash": "a4b2e671b1e876fdf713838bd23e6de4504e2833175003d5b06c1137a2f78d48"
+    },
+    "metal": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/metal/SKILL.md",
+      "computedHash": "58b70044d9f72af0e02ad75021df40c3ed20f81495b9a32bc12db95ed80b4762"
+    },
+    "mindfulness": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/mindfulness/SKILL.md",
+      "computedHash": "21e31c33a9ae591651e40c1b9fd2a0987152b12d338ad8fae8f160e1ea8cc624"
+    },
+    "mineral-identification": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/mineral-identification/SKILL.md",
+      "computedHash": "aa7a63887b342bd9fec166d7712c8bd751ce5e33d8874d5ff91ee9026353f245"
+    },
+    "model-markov-chain": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/model-markov-chain/SKILL.md",
+      "computedHash": "beafaba9787c4af139c583bca4cc86018601cabffe23a8e45e0b026e59ced322"
+    },
+    "monitor-binary-version-baselines": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/monitor-binary-version-baselines/SKILL.md",
+      "computedHash": "6fcf2892fc7e2d9b46d75cc5dcdff919810a0626cb7654f4656f868d8f290997"
+    },
+    "monitor-data-integrity": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/monitor-data-integrity/SKILL.md",
+      "computedHash": "28c2832770e068f957c4a4e0b3c0a10fc0c5626d3ff19929fb7e91ddfe4709a7"
+    },
+    "monitor-model-drift": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/monitor-model-drift/SKILL.md",
+      "computedHash": "2994c8045c62ebd8ed93cda1e25c41410ad94f08bd71104f927dae0184450918"
+    },
+    "mushroom-cultivation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/mushroom-cultivation/SKILL.md",
+      "computedHash": "9749b7ab053c5545175deebb64757e71f7010519e67f73fdfc71ac54e5700593"
+    },
+    "navigate-dach-bureaucracy": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/navigate-dach-bureaucracy/SKILL.md",
+      "computedHash": "72c28c9fd86d74c3f41a7f119dff6d93f221fb7526cb10ea1a03c5257d3f69dc"
+    },
+    "observe": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/observe/SKILL.md",
+      "computedHash": "47bcc2aa86b76ffe9f3d0dc8f7501c310c24ea2911bf988286dae1160b3f4d33"
+    },
+    "observe-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/observe-guidance/SKILL.md",
+      "computedHash": "9a17ca0673d99f79aeabef56f1c1dee2726afc2f179dc2edb72eef65bd8a7479"
+    },
+    "observe-insect-behavior": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/observe-insect-behavior/SKILL.md",
+      "computedHash": "4c96f51e87fca0dc04111103c79a3efb72e5b8df06de09229246441cd85b8229"
+    },
+    "optimize-cloud-costs": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/optimize-cloud-costs/SKILL.md",
+      "computedHash": "0b8acd77e7f44e12d446cc4400901f68c14efc7c44361f95e28f811d4ba0b46e"
+    },
+    "optimize-docker-build-cache": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/optimize-docker-build-cache/SKILL.md",
+      "computedHash": "8d81e0162f894bc843771a578cc201991d63d1413e123777d4c8286f389a2c82"
+    },
+    "optimize-shiny-performance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/optimize-shiny-performance/SKILL.md",
+      "computedHash": "6b82e1fdca7ab151ed4cad991c05a037680ede237940c6b1a866aaaf67b50695"
+    },
+    "orchestrate-ml-pipeline": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/orchestrate-ml-pipeline/SKILL.md",
+      "computedHash": "bffcc6e1e724245ea013a531c2cc684ad49b42458b7f48f6d52821c4a92ff25b"
+    },
+    "ornament-style-color": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/ornament-style-color/SKILL.md",
+      "computedHash": "4b00882de8136de5f9d0d34fd2cfc2332d01c0522144181167ef1bd7e12f5734"
+    },
+    "ornament-style-modern": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/ornament-style-modern/SKILL.md",
+      "computedHash": "a043519ac9c3da08fdd608c1f5a8400f34e1872a3a18fc9c86de808bb7cb5c94"
+    },
+    "ornament-style-mono": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/ornament-style-mono/SKILL.md",
+      "computedHash": "0000e662a916d4017d95432fdf0c284462992a753f95782299e9e551d3f9849e"
+    },
+    "paper-making": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/paper-making/SKILL.md",
+      "computedHash": "880dc4b1a3f0c883594472ef7c8891bf1199d361bae669eb3b8d6b958af206ce"
+    },
+    "perform-csv-assessment": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/perform-csv-assessment/SKILL.md",
+      "computedHash": "8144f157cea0eae1db6db939b5692fba65bf9787bd22a47fb7b7e860753894f1"
+    },
+    "pipeline-gpu-kernel": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/pipeline-gpu-kernel/SKILL.md",
+      "computedHash": "abd13199fd6db01ec4486eccd44d41ad733107813243b06c89a953e12d027545"
+    },
+    "plan-capacity": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-capacity/SKILL.md",
+      "computedHash": "41e013cbb494afd85e17053ec8eab5145aa59ee96266b41560f39f04696cdda9"
+    },
+    "plan-eu-relocation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-eu-relocation/SKILL.md",
+      "computedHash": "b6be3bdabd0138157a0bb829efc292a3ad6dd0e40e931719b5a9f37871a2947e"
+    },
+    "plan-garden-calendar": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-garden-calendar/SKILL.md",
+      "computedHash": "ce042b6a85919057a648c16d0b2610097d8a8f4be846fe48c8b01003504502c2"
+    },
+    "plan-hiking-tour": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-hiking-tour/SKILL.md",
+      "computedHash": "bb3acf16bac8e6d459fc87a5ca035315001632cff867e1e3cced5b5df1b47791"
+    },
+    "plan-release-cycle": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-release-cycle/SKILL.md",
+      "computedHash": "cc614b00a4d75838a188ae6cf938e21580095db0cf99f2e0701cca69d37d5a17"
+    },
+    "plan-spectroscopic-analysis": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-spectroscopic-analysis/SKILL.md",
+      "computedHash": "971a3dc8f6c634ffe387ebacc777089709b25bc831d84f5ea6f0f8f6106ae387"
+    },
+    "plan-sprint": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-sprint/SKILL.md",
+      "computedHash": "9483aa24b274fbc05f1ddc56b40163d3ffa4eba780fe036014a05e8b7647bc42"
+    },
+    "plan-tour-route": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/plan-tour-route/SKILL.md",
+      "computedHash": "4cf779464aa21555f68b8078339a27509259f4fa48c1844472ccf3a59ab85f73"
+    },
+    "polish-claw-project": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/polish-claw-project/SKILL.md",
+      "computedHash": "5aa349162bdb61f62e43e8c800afc2929805c0abc02504d37114d6513f784834"
+    },
+    "polish-gemstone": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/polish-gemstone/SKILL.md",
+      "computedHash": "aad128af39aa20f8c5d2cb560a491a9044d629e7516e2219256865efed3ca93c"
+    },
+    "practice-viriditas": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/practice-viriditas/SKILL.md",
+      "computedHash": "2eef0c8e00cf7d298c53a85a36a6cede80fa8d679795d65f6ef09af80f773ff9"
+    },
+    "prepare-inspection-readiness": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/prepare-inspection-readiness/SKILL.md",
+      "computedHash": "43ba6d0311294af8f9a201adb48ef61d9e5c4085fa56a0d2cce7f0c15a2e2bc2"
+    },
+    "prepare-print-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/prepare-print-model/SKILL.md",
+      "computedHash": "035c03aa865afba0fb5acbfdba7c936be0c1a0dd3dc042f4565c6078ef318445"
+    },
+    "prepare-soil": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/prepare-soil/SKILL.md",
+      "computedHash": "99b8edac679145c86aeb0631314b27b121a2350a1b6f182e31ffaca75588e4ca"
+    },
+    "preserve-materials": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/preserve-materials/SKILL.md",
+      "computedHash": "d3d630dfdb2aca0c19bcaf3c013d1a8631c02ea33edc96e424310c3e4aa32fbc"
+    },
+    "probe-feature-flag-state": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/probe-feature-flag-state/SKILL.md",
+      "computedHash": "d0f4d18c7fe3e36ce2a9a10ba2a8c7f9ded3df09978201b9c25947300935f5ef"
+    },
+    "prove-geometric-theorem": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/prove-geometric-theorem/SKILL.md",
+      "computedHash": "3d45f82618b82e28f789b34305e0210dad4264f1bc5f17b3bd79d876d6485bc8"
+    },
+    "provision-infrastructure-terraform": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/provision-infrastructure-terraform/SKILL.md",
+      "computedHash": "0678e303504ec9bc8459e84b6edd6ae1e93aa70a7f5ac580ae15212dd8fdaefb"
+    },
+    "prune-agent-memory": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/prune-agent-memory/SKILL.md",
+      "computedHash": "c8b30b464da2cec006ed23d4c27325feea4f3d5edd4566ab80e938238889bc2e"
+    },
+    "purify-water": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/purify-water/SKILL.md",
+      "computedHash": "35abcc2c9c91d6181cb3d93e2cc6ed4c017bfd33ac81ec2b98935519b674c245"
+    },
+    "qualify-vendor": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/qualify-vendor/SKILL.md",
+      "computedHash": "735724a322ba5845ed6b048e75e3ea34a7df9f65271e3b385c9542dce7104940"
+    },
+    "read-continue-here": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/read-continue-here/SKILL.md",
+      "computedHash": "100d58c4fee10ab8bd60030342f92c33d2d91305d81929db333742a6107c71d1"
+    },
+    "read-garden": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/read-garden/SKILL.md",
+      "computedHash": "3202a1197823b8aa24d5850619384b8200c440dbc6034c24628bb21ee0475398"
+    },
+    "read-tree-of-life": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/read-tree-of-life/SKILL.md",
+      "computedHash": "d15e8169a9df62dd7e5b0da0635cc98468d7e10d95dc57ec30a7d79a1c3c6582"
+    },
+    "redact-for-public-disclosure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/redact-for-public-disclosure/SKILL.md",
+      "computedHash": "4606ef8148fa6910fbbe70d39a31c432fad0897ca94e5289bcd177a3e99c315e"
+    },
+    "redirect": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/redirect/SKILL.md",
+      "computedHash": "7089c90d8830e6dcbd83b01cba62cd3340c23cb09ebf899272ea311dff9d7049"
+    },
+    "refactor-skill-structure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/refactor-skill-structure/SKILL.md",
+      "computedHash": "0786b57c215254da4ffe9abcc96a6fbca6d7bcbce8540872fa53fb9094cb225b"
+    },
+    "register-ml-model": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/register-ml-model/SKILL.md",
+      "computedHash": "9a73b2fac06065a8c1712c79ce3ff46657b1add3d93b39eb7ab8cff1a1b10338"
+    },
+    "release-package-version": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/release-package-version/SKILL.md",
+      "computedHash": "9f8d7432845d702d4012ae714e907affab996ec9cbd19106ed728c6f1154e4c4"
+    },
+    "remote-viewing": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/remote-viewing/SKILL.md",
+      "computedHash": "fd89974240a66f3b4bb824afd28db9c3fbe2af6b7f9a9fc04ca0dba651273865"
+    },
+    "remote-viewing-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/remote-viewing-guidance/SKILL.md",
+      "computedHash": "5a37b740ced7656fbe60da7384dc043ac9b05aaf528626cffdbc219b2534377a"
+    },
+    "render-blender-output": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/render-blender-output/SKILL.md",
+      "computedHash": "9b11914eba671015ff2968525c53808b7316e097c120e4d55e54fc84f7e3e736"
+    },
+    "render-icon-pipeline": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/render-icon-pipeline/SKILL.md",
+      "computedHash": "cb65b1d30e3d816537b7e38622dd2c8bd6c593610c98468f3d9d812b7300a11c"
+    },
+    "render-publication-graphic": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/render-publication-graphic/SKILL.md",
+      "computedHash": "a7966e82e55e487e7ebef4751258992e2dec596177ab3428c6e76aa96513d8c4"
+    },
+    "render-puzzle-docs": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/render-puzzle-docs/SKILL.md",
+      "computedHash": "c96f544d5afe0e20bfdab892976c051be244ca42703a2006c39280bf0ba9f1de"
+    },
+    "repair-broken-references": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/repair-broken-references/SKILL.md",
+      "computedHash": "604205bb01f3d7d80ef8beb1f8f3f1755e5b7a21cd47775b348c962f66a738fe"
+    },
+    "repair-damage": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/repair-damage/SKILL.md",
+      "computedHash": "df47d80afdad49b95689336b8c1764d6aac1624823f6e327c3682c7a5367fcbd"
+    },
+    "research-word-etymology": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/research-word-etymology/SKILL.md",
+      "computedHash": "02cf2d7765953927d156f9e748f61256644fd26c78c32711fea8dc266f420f12"
+    },
+    "resolve-git-conflicts": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/resolve-git-conflicts/SKILL.md",
+      "computedHash": "7a10e95a9f2d7fd9262a3e8306c6e2d1f5fd2d2c76e18db11fb962b71e55dd1f"
+    },
+    "rest": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/rest/SKILL.md",
+      "computedHash": "84e9aeae524f9099c3119070723f274a637e45337bef3fca4e5ffa2fc351c498"
+    },
+    "review-codebase": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-codebase/SKILL.md",
+      "computedHash": "2eafc510f1fe5783de1a3c74fe35a1ddbdf0dda10c8d5263e0a99b550a894e4e"
+    },
+    "review-data-analysis": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-data-analysis/SKILL.md",
+      "computedHash": "7b40547d2d73edd5418a02d3c10615887c725d6f88a5ac9b9c81f185458e2375"
+    },
+    "review-pull-request": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-pull-request/SKILL.md",
+      "computedHash": "1172fe89fbf2d20fe50662bd6bf29c31583e5ad3142def4ffc3651d150403353"
+    },
+    "review-research": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-research/SKILL.md",
+      "computedHash": "1b463202c980479bc864a1584d90587a56457492ff87b41c5b8be16b4479028f"
+    },
+    "review-skill-format": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-skill-format/SKILL.md",
+      "computedHash": "8425bce1d0b45414ac2e619449d1e21383a03064676ea2942f2a5ed743664cd2"
+    },
+    "review-software-architecture": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-software-architecture/SKILL.md",
+      "computedHash": "7b9a501d36f3fea9822121e20bd5984394071781465bc4aae977bb93261a737b"
+    },
+    "review-ux-ui": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-ux-ui/SKILL.md",
+      "computedHash": "392d71565ca67d387eebe2e204820c20cc2ede9e0f868279527eea48fc6ef01b"
+    },
+    "review-web-design": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/review-web-design/SKILL.md",
+      "computedHash": "a00bfcdeb4f85ce61677cf0c7618a6f565e8f5ef9f7bd2d5e86458dd4aa813ea"
+    },
+    "rotate-scraping-proxies": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/rotate-scraping-proxies/SKILL.md",
+      "computedHash": "dbccb258601aab93a60fbe2ac363056a61aa8f526e7e6b7d14a59292c78c621a"
+    },
+    "run-ab-test-models": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/run-ab-test-models/SKILL.md",
+      "computedHash": "02d8508642f657868d254a8e54d2261d5a6ce45e9679e4617ae3d8f381010caa"
+    },
+    "run-chaos-experiment": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/run-chaos-experiment/SKILL.md",
+      "computedHash": "aa838703a1175ba300bca104b3c655c603ec2f41a627f45707f94f2461300a6d"
+    },
+    "run-puzzle-tests": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/run-puzzle-tests/SKILL.md",
+      "computedHash": "9bd2533fc252db90b5e39226601046a5ba014757a990e61cdd7091382bb6332e"
+    },
+    "scaffold-cli-command": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/scaffold-cli-command/SKILL.md",
+      "computedHash": "dafd7a5959c9cd47ea398912f8195f44b8ed005e6b3884eae9c34ffb8cc76ba7"
+    },
+    "scaffold-mcp-server": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/scaffold-mcp-server/SKILL.md",
+      "computedHash": "f1eee0a17af96b64d20e3cfe38d21ee38bb739a299cc33093d7cde28bb676327"
+    },
+    "scaffold-nextjs-app": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/scaffold-nextjs-app/SKILL.md",
+      "computedHash": "e049935c4c945dc58f58365ef8c9ae289e8bdebd442fb80156474738c0fb191b"
+    },
+    "scaffold-shiny-app": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/scaffold-shiny-app/SKILL.md",
+      "computedHash": "53fc209af08b25d48f0ab0b66793930b7fd817b8ab5f90a21ff8122a9c7fb5e7"
+    },
+    "scale-colony": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/scale-colony/SKILL.md",
+      "computedHash": "265c8f09c0cba8d413bf8f1b9cdfcbef5fc27c54bdc113a3749c58edc95a1938"
+    },
+    "screen-trademark": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/screen-trademark/SKILL.md",
+      "computedHash": "a2dbe5ee114fc70ae201ab5d00c8b840987a4882c152aa2f1820c0db781452de"
+    },
+    "script-blender-automation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/script-blender-automation/SKILL.md",
+      "computedHash": "c546e1f6c15af6f8d8149b3ff420400bf6cccf09dfee7d53e4eb6c40fb03bfc2"
+    },
+    "search-prior-art": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/search-prior-art/SKILL.md",
+      "computedHash": "5946ecbfa5cef218d5b55d33dfd05a2922fdbf30748918be7a4add85a4f943c9"
+    },
+    "security-audit-codebase": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/security-audit-codebase/SKILL.md",
+      "computedHash": "03a966b67c72da7f08deae129ab8a028942583092a4ba61f1f621e076e8079e5"
+    },
+    "select-print-material": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/select-print-material/SKILL.md",
+      "computedHash": "142086fe935670335ce387fca3499f5e2848b19690a7aa151a3ab9e980565e46"
+    },
+    "serialize-data-formats": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/serialize-data-formats/SKILL.md",
+      "computedHash": "632542ff61bafa1f63e4b2b304e949f2131fcd22b193c628018f3fc33fe5fbee"
+    },
+    "setup-automl-pipeline": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-automl-pipeline/SKILL.md",
+      "computedHash": "9514ecab56322b0c09373dc55463e4e23b825fb9e26cb2df6b9918f8791b9e9e"
+    },
+    "setup-compose-stack": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-compose-stack/SKILL.md",
+      "computedHash": "6afd329a36b7c8aecb175c9edfa1ba3c1a470451dc3a7dee96c25959430183b3"
+    },
+    "setup-container-registry": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-container-registry/SKILL.md",
+      "computedHash": "cd1f3bc860286a1b5d7a9235d366d5acb697ecd5b3a0c1a45a35faab14281ce0"
+    },
+    "setup-docker-compose": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-docker-compose/SKILL.md",
+      "computedHash": "3da626ee9260717345a932594ec27395de102724403f3f1ba1138116e5ac35e6"
+    },
+    "setup-github-actions-ci": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-github-actions-ci/SKILL.md",
+      "computedHash": "d002db43d85f6bcf28759bc791d5e3e26907711fcafc5d0ab5cc7e71e385b1f0"
+    },
+    "setup-gxp-r-project": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-gxp-r-project/SKILL.md",
+      "computedHash": "d4bf162784cd88dfe3dd4d0d1ad0e6ff33384664af79730b26cef8cb1c23e25e"
+    },
+    "setup-local-kubernetes": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-local-kubernetes/SKILL.md",
+      "computedHash": "da665e3058be97c9f74e53dbd798723fd012bbfbfa594882b68e8e0ff7698efd"
+    },
+    "setup-prometheus-monitoring": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-prometheus-monitoring/SKILL.md",
+      "computedHash": "85f4defd79f7c08712ad34219875634660d149b4709126b0529a61629bab7744"
+    },
+    "setup-putior-ci": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-putior-ci/SKILL.md",
+      "computedHash": "43ad6c515d6e75f50adc70b9664be8b90ab198a053258297450167967d00b8df"
+    },
+    "setup-service-mesh": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-service-mesh/SKILL.md",
+      "computedHash": "ab0ec9418852bf83a13f164d839069cef30e740575e60d8f82ae5f64a56098f1"
+    },
+    "setup-tailwind-typescript": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-tailwind-typescript/SKILL.md",
+      "computedHash": "0d51422b53effceb95e88f0d9d0e7d5f5cf00dbd59ec9645770a764e300c2923"
+    },
+    "setup-uptime-checks": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-uptime-checks/SKILL.md",
+      "computedHash": "1f2619f98248c9ee5ccf6824238df6ac637c62194ca0178547ae3d82739d4356"
+    },
+    "setup-wsl-dev-environment": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/setup-wsl-dev-environment/SKILL.md",
+      "computedHash": "0189c59d56eb2014abced742eb6118bbdb2cdb9b532468941f73d0593b1a64b5"
+    },
+    "sharpen-knife": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/sharpen-knife/SKILL.md",
+      "computedHash": "647a38c07960b8fb22a345ddfdaf25fb69dba78d5bcb4e122507e881c4393153"
+    },
+    "shift-camouflage": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/shift-camouflage/SKILL.md",
+      "computedHash": "2faef6fe5a00278858c9bdefc81c30fde47e9d864e9884a8a2e572a19370bad6"
+    },
+    "shine": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/shine/SKILL.md",
+      "computedHash": "8d5b21eee182acdf6ad516732d91a2822d902798a9e6ad18527675cf030d89f8"
+    },
+    "shiva-bhaga": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/shiva-bhaga/SKILL.md",
+      "computedHash": "c57fb081ef8b286bf67e3726c7658e6b0c7f2d3fd9b08bdc53c2c6a3b250ab78"
+    },
+    "simulate-cpu-architecture": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/simulate-cpu-architecture/SKILL.md",
+      "computedHash": "2c5ed873b79cea3e71f6d86b7bd07a05847d330f275ef0213a8b7f8b374b5daf"
+    },
+    "simulate-stochastic-process": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/simulate-stochastic-process/SKILL.md",
+      "computedHash": "cfa78a15d13fbb91c6752d094b57c1e9288ddc16f4d46c4c4dc2f82e10640aa7"
+    },
+    "skill-name-here": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/_template/SKILL.md",
+      "computedHash": "b573ab430dc64101cc06ff7dcb9bcd20a4df256eb9181acc25573bca9d325412"
+    },
+    "solve-electromagnetic-induction": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/solve-electromagnetic-induction/SKILL.md",
+      "computedHash": "1310a00bb93c3b3c0237a13ba4f35cb215395f503d2b3f35d4059ebdb6027f99"
+    },
+    "solve-modular-arithmetic": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/solve-modular-arithmetic/SKILL.md",
+      "computedHash": "726e74bcd1859161044739536534b94cfe3275ecc6f83a4ea9d7baafdb9e6561"
+    },
+    "solve-trigonometric-problem": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/solve-trigonometric-problem/SKILL.md",
+      "computedHash": "e2e5afb8c191a29756a37a5d21979ae691d020f38555ef6edfde833697703443"
+    },
+    "study-hebrew-letters": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/study-hebrew-letters/SKILL.md",
+      "computedHash": "2f130c0149cd6cb4e222b135b930738ce2f2c13913079081a056f5563120959e"
+    },
+    "submit-to-cran": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/submit-to-cran/SKILL.md",
+      "computedHash": "92eb617d2edf75189c4bc7acc9a153c9474ee88a91a0ff36174eea4d2fffe168"
+    },
+    "survey-insect-population": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/survey-insect-population/SKILL.md",
+      "computedHash": "03eb2f44b091011c8124de47f1f699583985518cabd27922791467a28d00e0dd"
+    },
+    "survey-theoretical-literature": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/survey-theoretical-literature/SKILL.md",
+      "computedHash": "a33f35d140c5f38b28f999b508b67bdfb56621daee8a931125e6a1441ac060bb"
+    },
+    "sweep-flag-namespace": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/sweep-flag-namespace/SKILL.md",
+      "computedHash": "f7d803f4b8bd4b052cb82d2c5bc5b538b1e420018a3d0b0675480f4fec955540"
+    },
+    "tai-chi": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/tai-chi/SKILL.md",
+      "computedHash": "32a4649568ed5789d633c92b98990dc4e7e6e60035a4872df6cfcc170124ff21"
+    },
+    "teach": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/teach/SKILL.md",
+      "computedHash": "21f87cc4f0b06fc5a3b41d335e8f10f6bf37f2175c1ca3fee82a9cecf0ad43e7"
+    },
+    "teach-guidance": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/teach-guidance/SKILL.md",
+      "computedHash": "1464ee52a591e8e00272629236711fefe15b45fcd20f80c653f437a6380fb29f"
+    },
+    "test-a2a-interop": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/test-a2a-interop/SKILL.md",
+      "computedHash": "492a1e0797c91e93262d615b1dd8e7e67392ea20aa55dec56b99216356ea74e8"
+    },
+    "test-cli-application": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/test-cli-application/SKILL.md",
+      "computedHash": "bd8704322b739d2aa45290f90cc35d129dcc937d926fce80669b685f0d22593f"
+    },
+    "test-shiny-app": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/test-shiny-app/SKILL.md",
+      "computedHash": "86474bb55a30f5e50b7af48ab70c412e4922ec898094fe16eda02db78f8a75fa"
+    },
+    "test-team-coordination": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/test-team-coordination/SKILL.md",
+      "computedHash": "72b55960f45d7dd008c9dbcd2e67679ff31d168d0176a6af194e7447f13f0b4f"
+    },
+    "tidy-project-structure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/tidy-project-structure/SKILL.md",
+      "computedHash": "1e3c486899055fdb1fc646246db630302c75f84f67d32785b49c19cfac966d7d"
+    },
+    "track-ml-experiments": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/track-ml-experiments/SKILL.md",
+      "computedHash": "a28417a9402b4ea5b9c33af3b680f3456a7b578107abb758614e92e7c4b5f718"
+    },
+    "translate-content": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/translate-content/SKILL.md",
+      "computedHash": "ff4bfbf01585b9667114794805eb7e70a1891d3587d195d342d5de9cd6d3d00b"
+    },
+    "transmute": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/transmute/SKILL.md",
+      "computedHash": "1d065fde09176c3fdb4468caa24f62eefbac44d6332458fa098a8969ebe3f48d"
+    },
+    "troubleshoot-mcp-connection": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/troubleshoot-mcp-connection/SKILL.md",
+      "computedHash": "996d25ea9c17c9ddcfa13ee8f1920891a2f7d072784998cb66d9e60859fd834c"
+    },
+    "troubleshoot-print-issues": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/troubleshoot-print-issues/SKILL.md",
+      "computedHash": "42d19b7689a3798c364a727cff7ca428eb1a00e361c9e685c858ad9b728b4ee4"
+    },
+    "troubleshoot-separation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/troubleshoot-separation/SKILL.md",
+      "computedHash": "6d7518520497ea9f8aecaf048ecc4a055dd220d119d99dbe3ee197940cccd2a8"
+    },
+    "unleash-the-agents": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/unleash-the-agents/SKILL.md",
+      "computedHash": "68d5fc51de0555aa2f36609e2a6eb5b48827f40d14f19e9f65c55106047368d4"
+    },
+    "update-skill-content": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/update-skill-content/SKILL.md",
+      "computedHash": "f111d539429c798a42cfbb5fbd3222a005db4837c989ba26f174f19497b7e986"
+    },
+    "use-graphql-api": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/use-graphql-api/SKILL.md",
+      "computedHash": "359ade111bd38d73b5b0da642ae0f45e741635cf0e2dad3c515c74b44068f2dc"
+    },
+    "validate-analytical-method": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/validate-analytical-method/SKILL.md",
+      "computedHash": "96e773a8d0beda48f9835e5be92947129c4ed4229fa9b4b2a5920928308d0c75"
+    },
+    "validate-piles-notation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/validate-piles-notation/SKILL.md",
+      "computedHash": "59a2e2ac217ad790b0faab808fbdba6ec3ebb10919a83b9c1275b011347d25f9"
+    },
+    "validate-references": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/validate-references/SKILL.md",
+      "computedHash": "ea9569328a1e939ce55751a63aae5e9584ac146e550bd253ea0a20d1dd9208aa"
+    },
+    "validate-statistical-output": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/validate-statistical-output/SKILL.md",
+      "computedHash": "93426fc1012f7eb44c3dc69a863f6cc81a2d757799464dd6e5ee61348c3491a9"
+    },
+    "verify-agent-output": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/verify-agent-output/SKILL.md",
+      "computedHash": "12ab0b9058d7a7664c29b174c700d80a12f580cd17c9ebbaf2c9ee7b0f54c56c"
+    },
+    "version-ml-data": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/version-ml-data/SKILL.md",
+      "computedHash": "c5ef0331eaf05f0a4dc923121b016273ad600ab8fc62705e9d6c9dc02a70ffbc"
+    },
+    "vishnu-bhaga": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/vishnu-bhaga/SKILL.md",
+      "computedHash": "3dc76bd5a001a08ab00734d94d8daad38eb7bd488366547e080811908985fe15"
+    },
+    "write-claude-md": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-claude-md/SKILL.md",
+      "computedHash": "225ccc758567b46cecb9926457fdfc23333e107a54c53c67c19837c67ebfc321"
+    },
+    "write-continue-here": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-continue-here/SKILL.md",
+      "computedHash": "ec596edde18141b8874e1deb08951eb4c4e5af3314e63679fdcdd87f05dc4489"
+    },
+    "write-helm-chart": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-helm-chart/SKILL.md",
+      "computedHash": "c4371d157ae6fd0e215e1341e99d337405da7ef534ccd2bf6d72e12ce3ab3ece"
+    },
+    "write-incident-runbook": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-incident-runbook/SKILL.md",
+      "computedHash": "1b3c65337e510773df9cd7a93ff89353ae6b633c948a9fa26920e1b904c3c667"
+    },
+    "write-roxygen-docs": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-roxygen-docs/SKILL.md",
+      "computedHash": "5c36933063e59bb42f59739eba2f089d36ab45fa13bae9f77fcb3792de6b86b0"
+    },
+    "write-standard-operating-procedure": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-standard-operating-procedure/SKILL.md",
+      "computedHash": "8a7e46a0afdcd77ef6c9b2c8a74bbf6bcf42816016e081afcb5b2c4b5301f2e7"
+    },
+    "write-testthat-tests": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-testthat-tests/SKILL.md",
+      "computedHash": "ea7a2d58cf457abb665645562a075ab2198cb6ddebaead7b074c135afad0fa86"
+    },
+    "write-validation-documentation": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-validation-documentation/SKILL.md",
+      "computedHash": "8c2aaee27fe0d03b97892ea83c802ea6164e479ee755e71c24ff8872b1fa899a"
+    },
+    "write-vignette": {
+      "source": "pjt222/agent-almanac",
+      "sourceType": "github",
+      "skillPath": "skills/write-vignette/SKILL.md",
+      "computedHash": "7ef467070b8151519b8fccbff04d54faa0a13b9bfdf08a9e51a043cfe2d85e20"
+    }
+  }
+}
