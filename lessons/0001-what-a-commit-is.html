@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 1 — What a Commit Actually Is</title>
+<link rel="stylesheet" href="../assets/lesson.css">
+<link rel="stylesheet" href="../assets/quiz.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<header class="masthead">
+  <p class="eyebrow">Lesson 0001 · Git &amp; GitHub</p>
+  <h1>What a Commit Actually Is</h1>
+  <p class="standfirst">The atom of version control — and, not coincidentally, the atom of an audit trail.</p>
+</header>
+
+<p>Every other thing you will learn here — branches, pull requests, merges, reviews,
+history rewriting — is built out of commits. Get this one object right and the rest
+of Git stops being arbitrary. Get it wrong and every later concept feels like a rule
+you have to memorise.</p>
+
+<p>This matters directly for <a href="../MISSION.md">your mission</a>. In a governance
+or security role you are rarely the person writing the change. You are the person
+asking: <em>what changed, when, by whom, under what approval, and can I prove it
+wasn't altered afterwards?</em> A commit is the record that answers all five. Learning
+it as a compliance artifact — not just a developer's save button — is the fastest
+route from where you are to where you're going.</p>
+
+<h2>1. Git has three areas, not one</h2>
+
+<p>The single most common beginner confusion is believing a file lives in one place.
+It lives in three, and a change moves through them in order.</p>
+
+<table>
+  <thead>
+    <tr><th>Area</th><th>What it holds</th><th>State of a file there</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Working tree</strong></td>
+      <td>The actual files on your disk, as you see them in a text editor.</td>
+      <td><strong>Modified</strong> — changed, but Git has not been told to care yet.</td>
+    </tr>
+    <tr>
+      <td><strong>Staging area</strong><br><span style="color:var(--ink-soft)">(a.k.a. the index)</span></td>
+      <td>A list of exactly which changes go into the <em>next</em> commit.</td>
+      <td><strong>Staged</strong> — marked for inclusion, not yet recorded.</td>
+    </tr>
+    <tr>
+      <td><strong>Git directory</strong><br><span style="color:var(--ink-soft)">(the <code>.git</code> folder)</span></td>
+      <td>The permanent object database — every commit ever made.</td>
+      <td><strong>Committed</strong> — safely stored in the local database.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Two commands move a change rightwards along that table:</p>
+
+<pre><code>git add  &lt;file&gt;    # working tree  →  staging area
+git commit         # staging area   →  git directory</code></pre>
+
+<div class="sidenote">
+  The staging area is the part with no equivalent in Dropbox, Google Drive, or
+  Save-As, which is why it feels strange at first. Its whole purpose is to let you
+  commit <em>part</em> of what you changed. That is what makes a clean, reviewable
+  history possible — and a clean history is the difference between an audit trail
+  and a pile of files. Source: <a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">Pro Git, ch. 1.3</a>.
+</div>
+
+<h2>2. A commit is a snapshot, not a list of edits</h2>
+
+<p>Most people assume Git stores "the changes" — the added and deleted lines. It
+doesn't. Pro Git is explicit: <em>"Git thinks of its data more like a series of
+snapshots of a miniature filesystem."</em> Each commit records the complete state of
+the project at that moment. Files that didn't change aren't stored twice; Git just
+keeps <em>"a link to the previous identical file."</em>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">[Pro Git 1.3]</a></p>
+
+<p>The diffs you see on GitHub — green lines, red lines — are <strong>calculated on
+demand</strong> by comparing two snapshots. They are a view, not the stored data.</p>
+
+<h2>3. What's literally inside one</h2>
+
+<p>A commit object is tiny and plain-text. Here is a real one, as Git stores it:</p>
+
+<pre><code>tree d8329fc1cc938780ffdd9f94e0d364e0ea74f579
+author Scott Chacon &lt;schacon@gmail.com&gt; 1243040974 -0700
+committer Scott Chacon &lt;schacon@gmail.com&gt; 1243040974 -0700
+
+First commit</code></pre>
+
+<p>Four things, and that's all there is:</p>
+
+<ul>
+  <li><strong>tree</strong> — a pointer to the snapshot of every file and folder</li>
+  <li><strong>parent</strong> — a pointer to the commit that came before <span style="color:var(--ink-soft)">(absent above, because this is the very first commit in the repository)</span></li>
+  <li><strong>author</strong> and <strong>committer</strong> — who, and exactly when</li>
+  <li><strong>the message</strong> — why</li>
+</ul>
+
+<p>Source: <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">Pro Git, ch. 10.2</a>.</p>
+
+<h2>4. Why the history is tamper-evident</h2>
+
+<p><em>"Everything in Git is checksummed before it is stored and is then referred to
+by that checksum."</em> A commit's name — that 40-character string like
+<code>d8329fc…</code> — is a hash <em>of its own contents</em>, and its contents
+include the parent's hash.
+<a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">[Pro Git 1.3]</a></p>
+
+<div class="keyidea">
+  <span class="label">The one thing to remember</span>
+  <p>Because each commit's identity is a hash of its content <em>and</em> of its
+  parent's hash, you cannot quietly alter a past commit. Changing anything —
+  one character of a file, one letter of a message, the timestamp — produces a
+  different hash, which changes every commit after it. The tampering doesn't get
+  blocked; it becomes <strong>visible</strong>.</p>
+</div>
+
+<p>That property is why version control is treated as evidence. It's the same
+chained-hash idea you already met in network security: integrity is proved by
+making change detectable rather than impossible.</p>
+
+<h2>Do this now</h2>
+
+<p>Ten minutes, in a throwaway folder you cannot break. Type the commands rather
+than pasting them — the motor memory is part of the point.</p>
+
+<div class="dothis">
+<ol>
+  <li>Make a sandbox and turn it into a repository:
+    <pre><code>mkdir ~/git-sandbox &amp;&amp; cd ~/git-sandbox
+git init</code></pre>
+  </li>
+  <li>Create two files, so you have something to be selective about:
+    <pre><code>echo "keep this"    &gt; wanted.txt
+echo "not ready yet" &gt; unwanted.txt
+git status</code></pre>
+    <p style="font-size:0.87rem;color:var(--ink-soft)">Both are listed as untracked. Both are sitting in the working tree.</p>
+  </li>
+  <li>Stage <em>only one</em> of them, then look again:
+    <pre><code>git add wanted.txt
+git status</code></pre>
+    <p style="font-size:0.87rem;color:var(--ink-soft)">Now you can see the boundary: one file staged, one still only in the working tree. This is the three-area model on screen.</p>
+  </li>
+  <li>Commit, with a message that says <em>why</em>:
+    <pre><code>git commit -m "Add the file that was ready"</code></pre>
+  </li>
+  <li>Read your own record back:
+    <pre><code>git log</code></pre>
+    <p style="font-size:0.87rem;color:var(--ink-soft)">Note the hash, the author, the date, the message — the audit trail, in the order the fields appeared in section 3.</p>
+  </li>
+  <li>Now look at the raw object. This is the payoff:
+    <pre><code>git cat-file -p HEAD</code></pre>
+    <p style="font-size:0.87rem;color:var(--ink-soft)">You should see <code>tree</code>, <code>author</code>, <code>committer</code>, and your message — the exact shape from section 3, with no <code>parent</code> line, because it is your repository's first commit. Make a second commit and run it again: the <code>parent</code> line appears.</p>
+  </li>
+</ol>
+</div>
+
+<h2>Check yourself</h2>
+
+<p>Answer before scrolling back up. Getting one wrong here is more useful than
+getting it right by re-reading — struggling to retrieve is what makes it stick.</p>
+
+<div class="quiz" data-quiz>
+  <p class="q">What does a Git commit store?</p>
+  <ul class="opts">
+    <li data-correct>A full snapshot of the project</li>
+    <li>A list of the line changes</li>
+    <li>A copy of the previous commit</li>
+    <li>A patch against the main branch</li>
+  </ul>
+  <p class="why" hidden>A snapshot. Git records the whole state of the project, reusing links to unchanged files. The red-and-green diff you see on GitHub is computed by comparing two snapshots — it is a view, not the stored data.</p>
+</div>
+
+<div class="quiz" data-quiz>
+  <p class="q">Where does <code>git add</code> move a change?</p>
+  <ul class="opts">
+    <li data-correct>Into the staging area, awaiting commit</li>
+    <li>Into the commit history, becoming permanent</li>
+    <li>Into the working tree, becoming editable</li>
+    <li>Into the remote repository, becoming shared</li>
+  </ul>
+  <p class="why" hidden>Staging area only. <code>git add</code> marks a change for inclusion in the next commit; nothing is recorded in the object database until <code>git commit</code> runs, and nothing leaves your machine until <code>git push</code> runs.</p>
+</div>
+
+<div class="quiz" data-quiz>
+  <p class="q">Why can a past commit not be quietly edited?</p>
+  <ul class="opts">
+    <li data-correct>Its hash covers its parent commit</li>
+    <li>Its author is verified by GitHub</li>
+    <li>Its message is stored on servers</li>
+    <li>Its files are locked after committing</li>
+  </ul>
+  <p class="why" hidden>The hash chain. A commit's name is a checksum of its contents, which include its parent's hash — so altering anything in the past changes every hash after it. Git does not prevent the edit; it makes the edit impossible to hide.</p>
+</div>
+
+<div class="quiz" data-quiz>
+  <p class="q">Three files are edited, but only one belongs in this change. What now?</p>
+  <ul class="opts">
+    <li data-correct>Stage that one file, then commit</li>
+    <li>Commit everything, then revert others</li>
+    <li>Delete the others, then commit once</li>
+    <li>Push everything and sort it later</li>
+  </ul>
+  <p class="why" hidden>This is exactly what the staging area is for. <code>git add wanted.txt</code> then <code>git commit</code> — the other two changes stay in the working tree, untouched, waiting for their own commit. One commit, one complete idea.</p>
+</div>
+
+<p class="score" data-score></p>
+
+<div class="recall" data-recall>
+  <p class="q">Without looking: name Git's three areas, in the order a change passes through them, and the command that moves it between each.</p>
+  <div class="answer" hidden>
+    <strong>Working tree</strong> → <code>git add</code> → <strong>staging area</strong> (index) → <code>git commit</code> → <strong>Git directory</strong> (<code>.git</code>, the object database). The matching file states are <em>modified</em>, <em>staged</em>, <em>committed</em>.
+  </div>
+</div>
+
+<h2>Read the primary source</h2>
+
+<p>One thing, twenty minutes, and it is the best twenty minutes available on this
+topic anywhere: <a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F"><strong>Pro Git, chapter 1.3 — "What is Git?"</strong></a>
+It is free, it is the canonical text, and it is where every claim in this lesson
+came from. Read to the end of "The Three States" and stop there; the rest will
+come in later lessons.</p>
+
+<div class="footer">
+  <h2>Where this goes next</h2>
+  <p>Lesson 2 will take this same commit and put it on a <strong>branch</strong> —
+  the thing that makes it safe to work without touching anyone else's work, and the
+  first half of the review gate that matters for governance.</p>
+
+  <p><strong>Keep nearby:</strong>
+    <a href="../reference/git-core-commands.html">Reference — Core Git commands</a> ·
+    <a href="../MISSION.md">Mission</a> ·
+    <a href="../RESOURCES.md">Resources</a>
+  </p>
+
+  <div class="askme noprint">
+    <p><strong>Your teacher is right here.</strong> If any part of this was unclear —
+    or if a command did something you didn't expect, or you want to know why the
+    staging area exists at all — go back to the session and ask. Half-understood
+    Git compounds into confusion three lessons later, so ask early. Good questions
+    to start with: <em>"what actually is HEAD?"</em>, <em>"what happens if I commit
+    the wrong thing?"</em>, <em>"show me what a bad commit message looks like versus
+    a good one."</em></p>
+  </div>
+</div>
+
+</body>
+</html>

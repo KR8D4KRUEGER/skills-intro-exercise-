@@ -1,0 +1,221 @@
+/* ---------------------------------------------------------------------------
+   Shared stylesheet for every lesson and reference document in this workspace.
+   Tufte-inspired: generous measure, quiet palette, sidenotes, prints cleanly.
+   Every lesson links this file. Do not fork it — extend it.
+   ------------------------------------------------------------------------ */
+
+:root {
+  --paper:      #fffdf8;
+  --ink:        #1a1a18;
+  --ink-soft:   #55534d;
+  --rule:       #ddd8cc;
+  --accent:     #7a2e1e;
+  --accent-bg:  #f6efe6;
+  --ok:         #1f5c3d;
+  --ok-bg:      #e8f2ec;
+  --no:         #8a2420;
+  --no-bg:      #f7e9e7;
+  --mono:       "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+  --serif:      "Iowan Old Style", "Palatino Linotype", "Palatino", Georgia, serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:     #16150f;
+    --ink:       #eae6dc;
+    --ink-soft:  #a09b8e;
+    --rule:      #35322a;
+    --accent:    #e0917a;
+    --accent-bg: #241d18;
+    --ok:        #7ec9a2;
+    --ok-bg:     #16241c;
+    --no:        #e39189;
+    --no-bg:     #2a1a18;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.65;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 8rem;
+  max-width: 46rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Masthead ----------------------------------------------------------- */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+}
+
+h1 {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.5rem;
+}
+
+.standfirst {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin: 3rem 0 0.8rem;
+  letter-spacing: -0.005em;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 2rem 0 0.5rem;
+}
+
+p { margin: 0 0 1.1rem; }
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  background: var(--accent-bg);
+  padding: 0.12em 0.35em;
+  border-radius: 3px;
+}
+
+pre {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  background: var(--accent-bg);
+  border-left: 2px solid var(--rule);
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  border-radius: 3px;
+}
+
+pre code { background: none; padding: 0; font-size: inherit; }
+
+/* --- Sidenote ----------------------------------------------------------- */
+
+.sidenote {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  border-left: 2px solid var(--rule);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* --- Key idea callout --------------------------------------------------- */
+
+.keyidea {
+  background: var(--accent-bg);
+  border-left: 3px solid var(--accent);
+  padding: 1.1rem 1.3rem;
+  margin: 2rem 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.keyidea p:last-child { margin-bottom: 0; }
+
+.keyidea .label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+/* --- Tables ------------------------------------------------------------- */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+  margin: 1.6rem 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.55rem 0.8rem 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+th {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+
+/* --- Do-this-now blocks ------------------------------------------------- */
+
+.dothis { margin: 1.6rem 0; }
+
+.dothis ol { padding-left: 1.3rem; }
+.dothis li { margin-bottom: 0.8rem; }
+
+/* --- Footer / next steps ------------------------------------------------ */
+
+.footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.footer h2 { font-size: 1.05rem; margin-top: 0; }
+
+.askme {
+  background: var(--accent-bg);
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  margin: 2rem 0 0;
+  font-size: 0.92rem;
+}
+
+.askme strong { color: var(--accent); }
+
+/* --- Print -------------------------------------------------------------- */
+
+@media print {
+  :root {
+    --paper: #fff; --ink: #000; --ink-soft: #444;
+    --rule: #ccc; --accent: #000; --accent-bg: #f4f4f4;
+  }
+  body { font-size: 11pt; padding: 0; max-width: none; }
+  h2 { page-break-after: avoid; }
+  pre, table, .keyidea, .quiz { page-break-inside: avoid; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.75em; color: #555; }
+  .quiz .opt { border: 1px solid #ccc; }
+  .noprint { display: none; }
+}

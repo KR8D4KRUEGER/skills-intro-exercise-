@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reference — Core Git Commands</title>
+<link rel="stylesheet" href="../assets/lesson.css">
+</head>
+<body>
+
+<header class="masthead">
+  <p class="eyebrow">Reference · Git &amp; GitHub</p>
+  <h1>Core Git Commands</h1>
+  <p class="standfirst">A one-page desk reference. Designed to be printed and kept next to the keyboard.</p>
+</header>
+
+<div class="keyidea">
+  <span class="label">The model in one line</span>
+  <p><strong>working tree</strong> &nbsp;—<code>git add</code>→&nbsp; <strong>staging area</strong> &nbsp;—<code>git commit</code>→&nbsp; <strong>local repository</strong> &nbsp;—<code>git push</code>→&nbsp; <strong>remote (GitHub)</strong></p>
+  <p style="font-size:0.85rem;margin-top:0.6rem">Almost every command either moves a change one step along that line, or moves it one step back. When lost, run <code>git status</code>: it names where you are and usually suggests the next command.</p>
+</div>
+
+<h2>Looking around</h2>
+
+<table>
+  <thead><tr><th>Command</th><th>What it tells you</th></tr></thead>
+  <tbody>
+    <tr><td><code>git status</code></td><td>What is modified, what is staged, what branch you are on. Run it constantly — it is free and it is never wrong.</td></tr>
+    <tr><td><code>git log</code></td><td>The commit history, newest first: hash, author, date, message.</td></tr>
+    <tr><td><code>git log --oneline</code></td><td>The same history, one line per commit. The version you will actually use.</td></tr>
+    <tr><td><code>git show &lt;hash&gt;</code></td><td>Everything about one commit, including the diff it introduced.</td></tr>
+    <tr><td><code>git diff</code></td><td>Changes in the working tree that are <em>not yet staged</em>.</td></tr>
+    <tr><td><code>git diff --staged</code></td><td>Changes that <em>are</em> staged — i.e. a preview of your next commit.</td></tr>
+    <tr><td><code>git cat-file -p HEAD</code></td><td>The raw commit object: tree, parent, author, committer, message.</td></tr>
+  </tbody>
+</table>
+
+<h2>Recording work</h2>
+
+<table>
+  <thead><tr><th>Command</th><th>Effect</th></tr></thead>
+  <tbody>
+    <tr><td><code>git init</code></td><td>Turn the current folder into a repository. Creates <code>.git/</code>.</td></tr>
+    <tr><td><code>git clone &lt;url&gt;</code></td><td>Copy an existing remote repository, history and all, onto your machine.</td></tr>
+    <tr><td><code>git add &lt;file&gt;</code></td><td>Stage one file's changes for the next commit.</td></tr>
+    <tr><td><code>git add .</code></td><td>Stage everything changed below the current folder. Convenient; check <code>git status</code> first so nothing unintended rides along.</td></tr>
+    <tr><td><code>git commit -m "…"</code></td><td>Record everything staged as one commit, with a message.</td></tr>
+    <tr><td><code>git push</code></td><td>Send local commits to the remote. Nothing is on GitHub until this runs.</td></tr>
+    <tr><td><code>git pull</code></td><td>Fetch the remote's new commits and merge them into your branch.</td></tr>
+  </tbody>
+</table>
+
+<h2>Undoing, by situation</h2>
+
+<p>The table people actually reach for. Find the sentence that matches your
+situation; do not improvise.</p>
+
+<table>
+  <thead><tr><th>Situation</th><th>Command</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>I staged a file I didn't mean to.</td>
+      <td><code>git restore --staged &lt;file&gt;</code><br><span style="font-size:0.85em;color:var(--ink-soft)">Unstages it. Your edits are kept.</span></td>
+    </tr>
+    <tr>
+      <td>I want to throw away my edits to a file.</td>
+      <td><code>git restore &lt;file&gt;</code><br><span style="font-size:0.85em;color:var(--ink-soft)"><strong>Destructive.</strong> The edits are gone — they were never committed, so Git has no copy.</span></td>
+    </tr>
+    <tr>
+      <td>My last commit message is wrong.</td>
+      <td><code>git commit --amend</code><br><span style="font-size:0.85em;color:var(--ink-soft)">Replaces the last commit with a new one. Safe before pushing; disruptive after.</span></td>
+    </tr>
+    <tr>
+      <td>I forgot to include a file in the last commit.</td>
+      <td><code>git add &lt;file&gt;</code> then <code>git commit --amend --no-edit</code></td>
+    </tr>
+    <tr>
+      <td>A commit that is already pushed needs undoing.</td>
+      <td><code>git revert &lt;hash&gt;</code><br><span style="font-size:0.85em;color:var(--ink-soft)">Adds a <em>new</em> commit that reverses the old one. Correct choice for shared history: the record stays intact, which is what an audit trail requires.</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="sidenote">
+  Note the distinction in that last row, because it is the one that separates people
+  who understand Git from people who fear it. <code>revert</code> moves history
+  <em>forward</em> to undo something and leaves the mistake visible. Commands that
+  rewrite the past (<code>--amend</code>, <code>reset</code>, <code>rebase</code>)
+  change hashes, which breaks everyone who already pulled — and erases evidence.
+  On anything shared, prefer <code>revert</code>.
+</div>
+
+<h2>Anatomy of a commit</h2>
+
+<pre><code>tree   d8329fc…    ← snapshot of every file and folder
+parent a1b2c3d…    ← the commit before this one (absent on the first commit)
+author Name &lt;email&gt; 1243040974 -0700   ← who wrote it, and when
+committer Name &lt;email&gt; 1243040974 -0700   ← who applied it, and when
+
+Commit message goes here</code></pre>
+
+<p style="font-size:0.9rem;color:var(--ink-soft)">The commit's own 40-character hash
+is a checksum over all of the above. Since that includes the parent's hash, altering
+any past commit changes every hash that follows it — which is what makes the history
+tamper-evident.</p>
+
+<h2>Writing a commit message</h2>
+
+<table>
+  <thead><tr><th>Rule</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Say <em>why</em>, not <em>what</em>.</td><td>The diff already shows what changed. Only you know the reason.</td></tr>
+    <tr><td>Imperative mood: "Add", "Fix", "Remove".</td><td>Matches Git's own generated messages. Reads as an instruction the commit carries out.</td></tr>
+    <tr><td>One commit, one complete idea.</td><td>Makes review possible, and makes a single change revertible on its own.</td></tr>
+    <tr><td>Short first line, then blank line, then detail.</td><td>Tools display the first line alone. Anything past it must survive being truncated.</td></tr>
+  </tbody>
+</table>
+
+<div class="footer">
+  <p><strong>Sources:</strong>
+    <a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">Pro Git 1.3 — What is Git?</a> ·
+    <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">Pro Git 10.2 — Git Objects</a> ·
+    <a href="https://git-scm.com/docs">Git reference manual</a>
+  </p>
+  <p><strong>Taught in:</strong> <a href="../lessons/0001-what-a-commit-is.html">Lesson 1 — What a Commit Actually Is</a></p>
+</div>
+
+</body>
+</html>

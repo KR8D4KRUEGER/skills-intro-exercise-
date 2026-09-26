@@ -1,0 +1,143 @@
+/* ---------------------------------------------------------------------------
+   Practice widgets: retrieval quiz + free-recall prompt.
+   Pairs with assets/quiz.js. Requires assets/lesson.css for its variables.
+   ------------------------------------------------------------------------ */
+
+.quiz {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1.3rem 1.4rem 1.1rem;
+  margin: 2rem 0;
+}
+
+.quiz .q {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.quiz .qnum {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.quiz .opts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz .opt {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.6rem 0.85rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.quiz .opt:hover:not([disabled]) { border-color: var(--accent); }
+
+.quiz .opt[disabled] { cursor: default; }
+
+.quiz .opt.correct {
+  background: var(--ok-bg);
+  border-color: var(--ok);
+  color: var(--ok);
+}
+
+.quiz .opt.wrong {
+  background: var(--no-bg);
+  border-color: var(--no);
+  color: var(--no);
+}
+
+.quiz .why {
+  font-size: 0.87rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  border-left: 2px solid var(--rule);
+  padding-left: 0.9rem;
+  margin: 0.9rem 0 0;
+}
+
+.quiz .why[hidden] { display: none; }
+
+/* --- Free recall -------------------------------------------------------- */
+
+.recall {
+  border: 1px dashed var(--rule);
+  border-radius: 4px;
+  padding: 1.3rem 1.4rem;
+  margin: 2rem 0;
+}
+
+.recall .q { font-size: 1rem; margin: 0 0 0.9rem; }
+
+.recall textarea {
+  width: 100%;
+  min-height: 5.5rem;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: inherit;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.7rem 0.85rem;
+  resize: vertical;
+}
+
+.recall .reveal {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.45rem 0.9rem;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+
+.recall .reveal:hover { border-color: var(--accent); }
+
+.recall .answer {
+  font-size: 0.9rem;
+  border-left: 2px solid var(--accent);
+  padding-left: 0.9rem;
+  margin: 1rem 0 0;
+}
+
+.recall .answer[hidden] { display: none; }
+
+/* --- Score tally -------------------------------------------------------- */
+
+.score {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-align: right;
+  margin: 0.5rem 0 0;
+}
+
+@media print {
+  .quiz .opt { background: none !important; color: inherit !important; }
+  .quiz .why[hidden], .recall .answer[hidden] { display: block; }
+  .recall .reveal, .score { display: none; }
+}
